@@ -19,7 +19,10 @@ Route::get('/', function () {
 });
 
 Route::controller(DemoController::class)->group(function () {
-    Route::get('/about-about-about-about', 'about')->name('about.page');
+    Route::get('/about', 'about')
+        ->name('about.page')
+        ->middleware('checkage');
+
     Route::get('/contact', 'contact');
 });
 
