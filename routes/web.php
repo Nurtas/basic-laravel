@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 Route::controller(DemoController::class)->group(function () {
-    Route::get('/about', 'about');
+    Route::get('/about-about-about-about', 'about')->name('about.page');
     Route::get('/contact', 'contact');
 });
 
