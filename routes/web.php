@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Demo\DemoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::controller(DemoController::class)->group(function () {
+    Route::get('/about', 'about');
+    Route::get('/contact', 'contact');
+});
+
+// Route::get('/about', [DemoController::class, 'about']);
+// Route::get('/contact', [DemoController::class, 'contact']);
+
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
