@@ -85,7 +85,7 @@
                         <img src="{{ asset('backend/assets/images/layouts/layout-2.jpg') }}" class="img-fluid img-thumbnail" alt="layout-2">
                     </div>
                     <div class="form-check form-switch mb-3">
-                        <input class="form-check-input theme-choice" type="checkbox" id="dark-mode-switch" data-bsStyle="assets/css/bootstrap-dark.min.css" data-appStyle="assets/css/app-dark.min.css">
+                        <input class="form-check-input theme-choice" type="checkbox" id="dark-mode-switch" data-bsStyle="backend/assets/css/bootstrap-dark.min.css" data-appStyle="backend/assets/css/app-dark.min.css">
                         <label class="form-check-label" for="dark-mode-switch">Dark Mode</label>
                     </div>
 
@@ -93,7 +93,7 @@
                         <img src="{{ asset('backend/assets/images/layouts/layout-3.jpg') }}" class="img-fluid img-thumbnail" alt="layout-3">
                     </div>
                     <div class="form-check form-switch mb-5">
-                        <input class="form-check-input theme-choice" type="checkbox" id="rtl-mode-switch" data-appStyle="assets/css/app-rtl.min.css">
+                        <input class="form-check-input theme-choice" type="checkbox" id="rtl-mode-switch" data-appStyle="backend/assets/css/app-rtl.min.css">
                         <label class="form-check-label" for="rtl-mode-switch">RTL Mode</label>
                     </div>
 
@@ -108,32 +108,32 @@
         <div class="rightbar-overlay"></div>
 
         <!-- JAVASCRIPT -->
-        <script src="{{ asset('assets/libs/jquery/jquery.min.js') }}"></script>
-        <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-        <script src="{{ asset('assets/libs/metismenu/metisMenu.min.js') }}"></script>
-        <script src="{{ asset('assets/libs/simplebar/simplebar.min.js') }}"></script>
-        <script src="{{ asset('assets/libs/node-waves/waves.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/jquery/jquery.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/metismenu/metisMenu.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/simplebar/simplebar.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/node-waves/waves.min.js') }}"></script>
 
 
         <!-- apexcharts -->
-        <script src="{{ asset('assets/libs/apexcharts/apexcharts.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/apexcharts/apexcharts.min.js') }}"></script>
 
         <!-- jquery.vectormap map -->
-        <script src="{{ asset('assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js') }}"></script>
-        <script src="{{ asset('assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-us-merc-en.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-us-merc-en.js') }}"></script>
 
         <!-- Required datatable js -->
-        <script src="{{ asset('assets/libs/datatables.net/js/jquery.dataTables.min.js') }}"></script>
-        <script src="{{ asset('assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/datatables.net/js/jquery.dataTables.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
 
         <!-- Responsive examples -->
-        <script src="{{ asset('assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js') }}"></script>
-        <script src="{{ asset('assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js') }}"></script>
 
-        <script src="{{ asset('assets/js/pages/dashboard.init.js') }}"></script>
+        <script src="{{ asset('backend/assets/js/pages/dashboard.init.js') }}"></script>
 
         <!-- App js -->
-        <script src="{{ asset('assets/js/app.js') }}"></script>
+        <script src="{{ asset('backend/assets/js/app.js') }}"></script>
     </body>
 
 </html>
