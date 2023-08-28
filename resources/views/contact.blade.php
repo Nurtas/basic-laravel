@@ -9,6 +9,5 @@
 <body>
     <h1>Contact</h1>
     <a href="{{ route('about.page') }}">About</a>
-    {{-- <a href="{{ url('/about') }}">About</a> --}}
 </body>
 </html>

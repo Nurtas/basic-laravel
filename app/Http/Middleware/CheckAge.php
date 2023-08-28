@@ -19,6 +19,7 @@ class CheckAge
         {
             return redirect('contact');
         }
+
         return $next($request);
     }
 }
